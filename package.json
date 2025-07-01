@@ -1,10 +1,13 @@
 {
+  "homepage": "https://krishna070502.github.io/AI-Doc/",
   "name": "ai-doc-shiva-agrovet",
   "version": "1.0.0",
   "description": "AI-DOC by SHIVA AGROVET PVT LTD - AI-powered poultry health assistant",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview",
     "start": "vite"

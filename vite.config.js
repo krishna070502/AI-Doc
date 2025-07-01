@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/AI-Doc/', // GitHub Pages subdirectory
   server: {
     host: '0.0.0.0', // Explicitly listen on all interfaces
     port: 5174,
@@ -12,4 +13,14 @@ export default defineConfig({
       port: 5175, // Different port for HMR to avoid conflicts
     }
   },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    // Ensure proper asset handling for GitHub Pages
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      }
+    }
+  }
 })
