@@ -348,8 +348,6 @@ const App = () => {
       'కోడిపిల్ల': 'kodipilla',
       'గుడ్డు': 'guddu',
       'గుడ్లు': 'guddalu',
-      'మందు': 'mandu',
-      'వైద్యుడు': 'vaidyudu',
       'రైతు': 'raitu',
       'వ్యవసాయ': 'vyavasaya',
       'పశువులు': 'paشuvulu',
@@ -381,7 +379,6 @@ const App = () => {
       'సిరప్': 'syrup',
       'పరీక్షలు': 'pareekshalu',
       'రిపోర్టు': 'report',
-      'చికిత్స': 'chikitsa',
       'వైద్యం': 'vaidyam',
       'శుశ్రూష': 'shushroosha',
       'జాగ్రత్త': 'jaagratta'
