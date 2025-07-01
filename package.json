@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
     "build": "vite build",
     "preview": "vite preview",
     "start": "vite"
